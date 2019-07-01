@@ -1,0 +1,7 @@
+1, TagList Usage
+    1) mv taglist/doc & taglist/plugin to ~/.vim dir;
+    2) start vi, edit :helptags ~/.vim/doc 
+    3) use taglist: Tlist
+http://ju.outofmemory.cn/entry/282065
+
+
