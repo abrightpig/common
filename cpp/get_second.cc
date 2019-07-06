@@ -5,7 +5,7 @@
 uint64_t MicroSecond() {
     struct    timeval tm;
     gettimeofday(&tm, NULL);
-    return (tm.tv_sec * 1000000 + tm.tv_usec) / 100;
+    return tm.tv_sec * 1000000 + tm.tv_usec;
 }
 
 int main(void) {
