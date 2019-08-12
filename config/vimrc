@@ -140,7 +140,7 @@ set expandtab
 " Indentation settings for using hard tabs for indent. Display tabs as
 " four characters wide.
 "set shiftwidth=4
-"set tabstop=4
+set tabstop=4
  
  
 "------------------------------------------------------------
@@ -156,3 +156,11 @@ map Y y$
 " next search
 nnoremap <C-L> :nohl<CR><C-L>
 
+let Tlist_Ctags_Cmd="/usr/local/bin/ctags"
+
+"filetype on
+"Taglist config
+let Tlist_Auto_Open=1
+let Tlist_File_Fold_Auto_Close=1
+"let Tlist_Close_On_Select = 1
+let Tlist_Exit_OnlyWindow = 1
